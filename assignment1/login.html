@@ -6,7 +6,26 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=key_vertical" />
-    
+    <style>
+              .hr-sect {
+        display: flex;
+        flex-basis: 100%;
+        align-items: center;
+        color: rgba(0, 0, 0, 0.35);
+        font-size: 12px;
+        margin: 8px 0px;
+      }
+      .hr-sect::before,
+      .hr-sect::after {
+        content: "";
+        flex-grow: 1;
+        background: rgba(0, 0, 0, 0.35);
+        height: 1px;
+        font-size: 0px;
+        line-height: 0px;
+        margin: 0px 16px;
+      }
+    </style>
 </head>
 <body>
     <div style="margin-top: 15%">
@@ -23,27 +42,27 @@
     <br><br>
     <div class="row">
         <div class="content d-grid col-3 mx-auto">
-            <button class="btn btn-outline-secondary" type="button">Sign in with goofle</button>       
+            <button class="btn btn-outline-secondary" type="button"><img src="./gooole.png" width="15px">Sign in with goofle</button>       
         </div>
     </div>
     <br>
     <div class="row">
         <div class="content d-grid col-3 mx-auto">
-            <button class="btn btn-outline-secondary" type="button">Sign in with facebook</button>       
+            <button class="btn btn-outline-secondary" type="button"><img src="./images.png" width="15px"> in with facebook</button>       
         </div>
     </div>
     
-    <div class="row">
+    <div class="row" style="margin-top: 1%">
         <div class="content d-grid col-3 mx-auto">
             <fieldset>
-                <div><small>or use email</small></div>
+                <div class="hr-sect"><small>or use email</small></div>
             </fieldset>
         </div>
     </div>
 
-    <div class="row">
+    <div class="row" style="margin-top: 1%;">
         <div class="text-left content col-3 mx-auto">
-            id
+           <img src="./KakaoTalk_20250124_124357306.png" width="15px"> &nbsp;id
         </div>
     </div>
 
@@ -51,15 +70,16 @@
     <div class="row">
         <div class="text-center content col-3 mx-auto">
                 <div>
-                    <input type="text" class="form-control  px-10 py-2" placeholder="name@example.com">
+                    <input type="text" class="form-control px-10 py-2" placeholder="name@example.com">
+                    </input>
                 </div>
             </form>
         </div>
     </div>
 
-    <div class="row">
+    <div class="row" style="margin-top: 1%;">
         <div class="text-left content col-3 mx-auto">
-            password
+            <img src="./KakaoTalk_20250124_124437917.png" width="15px">&nbsp; password
         </div>
     </div>
 
@@ -72,7 +92,30 @@
             </form>
         </div>
     </div>
-    
+    <div class="row">
+        <div class="form-check text-left content col-3 mx-auto">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              <small>Remember me&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</small>
+              <a target="_blank" href="" style="text-align: right;">Forgot Password?</a>  
+            </label>           
+    </div>
+
+    <div class="row" style="margin-top: 3%">
+        <div class="content d-grid col-3 mx-auto">
+            <button type="button" class="btn btn-primary">Sign ln</button>
+        </div>
+    </div>
+
+    <div class="row" style="margin-top: 1%">
+        <div class="form-check text-center content col-3 mx-auto">           
+            <label class="form-check-label" for="flexCheckDefault">              
+              <a target="_blank" href="" style="text-align: right;">Create an account</a>  
+            </label>           
+    </div>
+    <div style="margin-top: 15%;">
+        
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
