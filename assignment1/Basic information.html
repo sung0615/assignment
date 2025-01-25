@@ -10,10 +10,7 @@
             font-family: Arial, sans-serif;
             margin: 20px;
         }
-        h1 {
-            text-align: center;
-            margin-bottom: 20px;
-        }
+        
         table {
             width: 100%;
             border-collapse: collapse;
@@ -23,32 +20,12 @@
             vertical-align: top;
             padding: 10px;
         }
-        .form-select, .form-input, .form-textarea {
-            display: block;
-            margin: 5px 0;
-            width: 90%;
-            padding: 8px;
-            box-sizing: border-box;
-        }
-        .form-textarea {
-            height: 80px;
-            resize: none;
-        }
-        small {
-            display: block;
-            margin-bottom: 5px;
-        }
+           
         span {
             color: red;
         }
-        .description {
-            grid-column: span 3;
-        }
-        .grid-container {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 10px;
-        }
+        
+        
 
 
     
@@ -119,6 +96,82 @@
                             <small  style="float: left;">코드 이름(영문)</small></small><span style="float: left;">*</span><br>
                         <input type="text" class="form-control px-10 py-2" placeholder="영대소문자,숫자">
                         </input>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <small style="float: left;">사용여부</small><span style="float: left;">*</span><br>
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>사용</option>
+                                <option value="1">on</option>
+                                <option value="2">of</option>
+                        </td>
+                        <td>
+                            <small style="float: left;">순서</small><span style="float: left;">*</span><br>
+                            <input type="text" class="form-control px-10 py-2">
+                            </input>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <form aria-setsize="200">
+                                <small style="float: left;">설명</small><br>
+                                <textarea style="width: 665px; height: 100px;"></textarea>
+                            </form>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <small style="float: left;">다국어1</small><br>
+                            <input type="text" class="form-control px-10 py-2">                               
+                        </td>
+                        <td>
+                            <small style="float: left;">다국어2</small><br>
+                            <input type="text" class="form-control px-10 py-2">                               
+                        </td>
+                        <td>
+                            <small style="float: left;">다국어3</small><br>
+                            <input type="text" class="form-control px-10 py-2">                               
+                        </td>
+                        <td>
+                            <small style="float: left;">다국어4</small><br>
+                            <input type="text" class="form-control px-10 py-2">                               
+                        </td>
+                    </tr>    
+                    <tr>
+                        <td>
+                            <small style="float: left;">예비1 (VARCHAR TYPE)</small><br>
+                            <input type="text" class="form-control px-10 py-2">                               
+                        </td>
+                        <td>
+                            <small style="float: left;">예비2 (VARCHAR TYPE)</small><br>
+                            <input type="text" class="form-control px-10 py-2">                               
+                        </td>
+                        <td>
+                            <small style="float: left;">예비3 (VARCHAR TYPE)</small><br>
+                            <input type="text" class="form-control px-10 py-2">                               
+                        </td>
+                        <td>
+                            <small style="float: left;">예비4 (VARCHAR TYPE)</small><br>
+                            <input type="text" class="form-control px-10 py-2">                               
+                        </td>
+                    </tr>    
+                    <tr>
+                        <td>
+                            <small style="float: left;">예비1 (INT TYPE)</small><br>
+                            <input type="text" class="form-control px-10 py-2">                               
+                        </td>
+                        <td>
+                            <small style="float: left;">예비2 (INT TYPE)</small><br>
+                            <input type="text" class="form-control px-10 py-2">                               
+                        </td>
+                        <td>
+                            <small style="float: left;">예비3 (INT TYPE)</small><br>
+                            <input type="text" class="form-control px-10 py-2">                               
+                        </td>
+                        <td>
+                            <small style="float: left;">예비4 (INT TYPE)</small><br>
+                            <input type="text" class="form-control px-10 py-2">                               
                         </td>
                     </tr>    
                 </table>
