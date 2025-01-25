@@ -65,10 +65,10 @@
             
         </div>
     </div>
-    <div class="container-fluid text-center">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-2">
-                <ul class="" style="  height: 100vh; overflow-y: auto; background-color: #f4f4f4; padding: 10px;">
+                <ul class="" overflow-y: auto; padding: 10px;>
                     <li><a href="#"><small>home</small></a></li>
                     <li><a href="#"><small>공지사항</small></a></li>
                     <li><a href="#"><small>회원관리</small></a></li>
@@ -84,48 +84,44 @@
                     <li><a href="#"><small>test</small></a></li>
                 </ul>
             </div>
-            <div class="col">
+            <div class="col-10">
                 <h3 style="float: left;"><strong>기본 정보</strong></h3><br><br><br>
                 <table>
                     <tr>
                         <td>
-                            <small>코드구룹</small><span>*</span>
+                            <small style="float: left;">코드구룹</small><span style="float: left;">*</span><br>
                             <select class="form-select" aria-label="Default select example">
                                 <option selected>선택하세요</option>
                                 <option value="1">One</option>
                                 <option value="2">Two</option>
                                 <option value="3">Three</option>
-                            </select>
-                            <small>코드</small><span>*</span>
-                            <select class="form-select" aria-label="Disabled select example" disabled>
-                                <option selected>자동생성</option>
-                            </select>
-                        </td>
-                        <td>
-                            <small>코드</small><span>*</span>
-                            <select class="form-select" aria-label="Default select example">
-                                <option selected>선택하세요</option>
-                                <option value="1">One</option>
-                                <option value="2">Two</option>
-                                <option value="3">Three</option>
-                            </select>
-                        </td>
-                    </tr>
-                </table>
-                <table>
+                        </td>       
+                    </tr>            
                     <tr>
                         <td>
-                            <small>코드</small><span>*</span>
-                            <select class="form-select" aria-label="Default select example">
-                                <option selected>선택하세요</option>
-                                <option value="1">One</option>
-                                <option value="2">Two</option>
-                                <option value="3">Three</option>
-                            </select>
+                        </select>
+                        <small  style="float: left;">코드</small><span style="float: left;">*</span>
+                        <br><select class="form-select" aria-label="Disabled select example" disabled>
+                            <option selected>자동생성</option>
+                        </select>
                         </td>
-                    </tr>
+                        <td>
+                            <small  style="float: left;">코드 (ANOTHER)</small>
+                        <input type="text" class="form-control px-10 py-2" placeholder="영대소문자,숫자">
+                        </input>
+                        </td>
+                        <td>
+                            <small  style="float: left;">코드 이름</small></small><span style="float: left;">*</span><br>
+                        <input type="text" class="form-control px-10 py-2" placeholder="영대소문자,숫자">
+                        </input>
+                        </td>
+                        <td>
+                            <small  style="float: left;">코드 이름(영문)</small></small><span style="float: left;">*</span><br>
+                        <input type="text" class="form-control px-10 py-2" placeholder="영대소문자,숫자">
+                        </input>
+                        </td>
+                    </tr>    
                 </table>
-                       
             </div>
         </div>
     </div>
