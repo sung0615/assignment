@@ -11,10 +11,20 @@
             border-collapse: collapse;
             table-layout: fixed;
         }
-        td {
-            vertical-align: top;
+        td, th {
+            text-align: center;
+            vertical-align: middle;
             padding: 10px;
+            border: 1px solid #ffffff;
         }
+        
+       
+        
+        
+       
+        
+        
+        
     </style>
 
 </head>
@@ -23,7 +33,7 @@
         <div class="row">
             <div class="col">
                 <h3><strong>Ads</strong>Admin</h3>
-                <hr>
+                
             </div>
             
         </div>
@@ -48,52 +58,64 @@
                 </ul>
             </div>
             <div class="col-10">
-                <h3 style="float: left;"><strong>기본 정보</strong></h3><br><br><br>
+                <div>
+                    <table>
+                        <tr>
+                            <td>
+                                <h3 style="float: left;"><strong>기본 정보</strong></h3>
+                            </td>
+                        </tr>
+                    </table>    
+                </div>
                 <table>
                     <tr>
                         <td>
-                            <small style="float: left;">코드구룹</small><span style="float: left;">*</span><br>
-                            <select class="form-select" aria-label="Default select example">
+                            <small style="float: left;" for="ee">코드구룹</small><span style="float: left; color: red;">*</span>
+                            <select class="form-select" aria-label="Default select example" id="ee">
                                 <option selected>선택하세요</option>
                                 <option value="1">One</option>
                                 <option value="2">Two</option>
                                 <option value="3">Three</option>
+                              </select>
+
                         </td>       
                     </tr>            
                     <tr>
                         <td>
                         </select>
-                        <small  style="float: left;">코드</small><span style="float: left;">*</span>
-                        <br><select class="form-select" aria-label="Disabled select example" disabled>
+                        <small style="float: left;">코드</small><span style=" float: left; color: red;" >*</span>
+                        <br><select class="form-select px-10 py-2" aria-label="Disabled select example" disabled>
                             <option selected>자동생성</option>
                         </select>
                         </td>
                         <td>
-                            <label for="exampleFormControlInput1" class="form-label"><small>코드(ANOTHER)</small><span>*</span></label>
-                            <input type="email" class="form-control px-10 py-2" id="exampleFormControlInput1" placeholder="영대소문자,숫자">
+                            <label for="exampleFormControlInput1" class="form-label" style="float: left;"><small>코드(ANOTHER)</small><span>*</span></label>
+                            <input type="text" class="form-control px-10 py-2" id="exampleFormControlInput1" placeholder="영대소문자,숫자">
                             </input>
                         </td>
                         <td>
-                            <label for="exampleFormControlInput2" class="form-label"><small>코드이름</small><span>*</span></label>
-                            <input type="email" class="form-control px-10 py-2" id="exampleFormControlInput2" placeholder="한글,영대소문자,숫자">
+                            <label for="exampleFormControlInput2" class="form-label" style="float: left;"><small>코드이름</small><span style="color: red;">*</span></label>
+                            <input type="text" class="form-control px-10 py-2" id="exampleFormControlInput2" placeholder="한글,영대소문자,숫자">
                             </input>
                         </td>
                         <td>
-                            <label for="exampleFormControlInput3" class="form-label"><small>코드 이름</small><span>*</span></label>
-                            <input type="email" class="form-control px-10 py-2" id="exampleFormControlInput3" placeholder="한글,영대소문자,숫자">
+                            <label for="exampleFormControlInput3" class="form-label" style="float: left;"><small>코드 이름(영문)</small></label>
+                            <input type="text" class="form-control px-10 py-2" id="exampleFormControlInput3" placeholder="영대소문자,숫자">
                             </input>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <small style="float: left;">사용여부</small><span style="float: left;">*</span><br>
-                            <select class="form-select" aria-label="Default select example">
+                            <small style="float: left;" for="eee">사용여부</small><span style="float: left; color: red;">*</span>
+                            <select class="form-select px-10 py-2" aria-label="Default select example" id="eee">
                                 <option selected>사용</option>
-                                <option value="1">on</option>
-                                <option value="2">of</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                              </select>
                         </td>
                         <td>
-                            <label for="exampleFormControlInput4" class="form-label"><small>순서</small><span>*</span></label>
+                            <label for="exampleFormControlInput4" class="form-label"  style="float: left;"><small>순서</small><span style="color: red;">*</span></label>
                             <input type="email" class="form-control px-10 py-2" id="exampleFormControlInput4">
                             </input>
                         </td>
@@ -101,80 +123,80 @@
                     <tr>
                         <td>
                             <form aria-setsize="200">
-                                <label for="exampleFormControlTextarea1" class="form-label"><small>설명</small></label>
+                                <label for="exampleFormControlTextarea1" class="form-label"  style="float: left;"><small>설명</small></label>
                                  <textarea class="form-control" style="width: 675px; height: 100px;" id="exampleFormControlTextarea1" rows="3"></textarea>
                             </form>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <label for="1" class="form-label"><small>다국어1</small></label>
-                            <input type="email" class="form-control px-10 py-2" id="1">
+                            <label for="1" class="form-label"  style="float: left;"><small>다국어1</small></label>
+                            <input type="text" class="form-control px-10 py-2" id="1">
                             </input>                              
                         </td>
                         <td>
-                            <label for="2" class="form-label"><small>다국어2</small></label>
-                            <input type="email" class="form-control px-10 py-2" id="2">
+                            <label for="2" class="form-label"  style="float: left;"><small>다국어2</small></label>
+                            <input type="text" class="form-control px-10 py-2" id="2">
                             </input>                                
                         </td>
                         <td>
-                            <label for="3" class="form-label"><small>다국어3</small></label>
-                            <input type="email" class="form-control px-10 py-2" id="3">
+                            <label for="3" class="form-label"  style="float: left;"><small>다국어3</small></label>
+                            <input type="text" class="form-control px-10 py-2" id="3">
                             </input>                                
                         </td>
                         <td>
-                            <label for="4" class="form-label"><small>다국어4</small></label>
-                            <input type="email" class="form-control px-10 py-2" id="4">
-                            </input>                                
-                        </td>
-                    </tr>    
-                    <tr>
-                        <td>
-                            <label for="b1" class="form-label"><small>예비1 (VARCHAR TYPE)</small></label>
-                            <input type="email" class="form-control px-10 py-2" id="b1">
-                            </input>                                
-                        </td>
-                        <td>
-                            <label for="b2" class="form-label"><small>예비2 (VARCHAR TYPE)</small></label>
-                            <input type="email" class="form-control px-10 py-2" id="b2">
-                            </input>                               
-                        </td>
-                        <td>
-                            <label for="b3" class="form-label"><small>예비3 (VARCHAR TYPE)</small></label>
-                            <input type="email" class="form-control px-10 py-2" id="b3">
-                            </input>                                
-                        </td>
-                        <td>
-                            <label for="b4" class="form-label"><small>예비4 (VARCHAR TYPE)</small></label>
-                            <input type="email" class="form-control px-10 py-2" id="b4">
+                            <label for="4" class="form-label"  style="float: left;"><small>다국어4</small></label>
+                            <input type="text" class="form-control px-10 py-2" id="4">
                             </input>                                
                         </td>
                     </tr>    
                     <tr>
                         <td>
-                            <label for="a1" class="form-label"><small>예비1 (INT TYPE)</small></label>
-                            <input type="email" class="form-control px-10 py-2" id="a1">
+                            <label for="b1" class="form-label"  style="float: left;"><small>예비1 (VARCHAR TYPE)</small></label>
+                            <input type="text" class="form-control px-10 py-2" id="b1">
+                            </input>                                
+                        </td>
+                        <td>
+                            <label for="b2" class="form-label"  style="float: left;"><small>예비2 (VARCHAR TYPE)</small></label>
+                            <input type="text" class="form-control px-10 py-2" id="b2">
                             </input>                               
                         </td>
                         <td>
-                            <label for="a2" class="form-label"><small>예비2 (INT TYPE)</small></label>
-                            <input type="email" class="form-control px-10 py-2" id="a2">
+                            <label for="b3" class="form-label"  style="float: left;"><small>예비3 (VARCHAR TYPE)</small></label>
+                            <input type="text" class="form-control px-10 py-2" id="b3">
                             </input>                                
                         </td>
                         <td>
-                            <label for="a3" class="form-label"><small>예비3 (INT TYPE)</small></label>
-                            <input type="email" class="form-control px-10 py-2" id="a3">
+                            <label for="b4" class="form-label"  style="float: left;"><small>예비4 (VARCHAR TYPE)</small></label>
+                            <input type="text" class="form-control px-10 py-2" id="b4">
+                            </input>                                
+                        </td>
+                    </tr>    
+                    <tr>
+                        <td>
+                            <label for="a1" class="form-label"  style="float: left;"><small>예비1 (INT TYPE)</small></label>
+                            <input type="text" class="form-control px-10 py-2" id="a1">
+                            </input>                               
+                        </td>
+                        <td>
+                            <label for="a2" class="form-label"  style="float: left;"><small>예비2 (INT TYPE)</small></label>
+                            <input type="text" class="form-control px-10 py-2" id="a2">
                             </input>                                
                         </td>
                         <td>
-                            <label for="a4" class="form-label"><small>예비4 (INT TYPE)</small></label>
-                            <input type="email" class="form-control px-10 py-2" id="a4">
+                            <label for="a3" class="form-label"  style="float: left;"><small>예비3 (INT TYPE)</small></label>
+                            <input type="text" class="form-control px-10 py-2" id="a3">
+                            </input>                                
+                        </td>
+                        <td>
+                            <label for="a4" class="form-label"  style="float: left;"><small>예비4 (INT TYPE)</small></label>
+                            <input type="text" class="form-control px-10 py-2" id="a4">
                             </input>                                
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <button type="button" class="btn btn-light">
+                            <button type="button" class="btn btn-light"  style="float: left;">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
                                   </svg>
