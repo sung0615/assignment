@@ -206,7 +206,10 @@
                                 <option selected>검색구분</option>
                                 <option value="1">코드그룹 코드</option>
                                 <option value="2">코드그룹 이름</option>
-                                <option value="2">코드그룹 이름(영문)</option>
+                                <option value="3">코드</option>
+                                <option value="4">대체 코드</option>
+                                <option value="5">코드 이름</option>
+                                <option value="6">코드 이름 (영문)</option>
                         </td>
                         <td>
                             <input class="form-control" type="text" placeholder="검색어" aria-label="Disabled input example" disabled>
@@ -245,38 +248,46 @@
                         </td>
                     </tr>
                 </table>
-                <div class="row" style="margin-left: 20px; margin-top: 10px; margin-left: 20px; ">
+                    <div class="row" style="margin-left: 20px; margin-top: 10px; margin-left: 20px; ">
                     <span style="width: 0%;"><input type="checkbox"></span>
                     <span style="width: 7%; text-align: center;">#</span>
-                    <span style="width: 7%; text-align: center;">사용<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chevron-expand" viewBox="0 0 16 16">
-                        
+
+                    <span style="width: 7%; text-align: center;">사용<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chevron-expand" viewBox="0 0 16 16">                       
                         <path fill-rule="evenodd" d="M3.646 9.146a.5.5 0 0 1 .708 0L8 12.793l3.646-3.647a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 0-.708m0-2.292a.5.5 0 0 0 .708 0L8 3.207l3.646 3.647a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 0 0 0 .708"/>
                         </svg></span>
 
                     <span style="width: 8%; text-align: center;">코드그룹코드<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chevron-expand" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M3.646 9.146a.5.5 0 0 1 .708 0L8 12.793l3.646-3.647a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 0-.708m0-2.292a.5.5 0 0 0 .708 0L8 3.207l3.646 3.647a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 0 0 0 .708"/>
                         </svg></span>
+
                     <span style="width: 15%; text-align: center;">코드그룹이름<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chevron-expand" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M3.646 9.146a.5.5 0 0 1 .708 0L8 12.793l3.646-3.647a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 0-.708m0-2.292a.5.5 0 0 0 .708 0L8 3.207l3.646 3.647a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 0 0 0 .708"/>
                         </svg></span>
+
                     <span style="width: 8%; text-align: center;">코드<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chevron-expand" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M3.646 9.146a.5.5 0 0 1 .708 0L8 12.793l3.646-3.647a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 0-.708m0-2.292a.5.5 0 0 0 .708 0L8 3.207l3.646 3.647a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 0 0 0 .708"/>
                         </svg></span>
+
                     <span style="width: 7%; text-align: center;">대체 코드<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chevron-expand" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M3.646 9.146a.5.5 0 0 1 .708 0L8 12.793l3.646-3.647a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 0-.708m0-2.292a.5.5 0 0 0 .708 0L8 3.207l3.646 3.647a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 0 0 0 .708"/>
                         </svg></span>
+
                     <span style="width: 7%; text-align: center;">코드 이름<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chevron-expand" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M3.646 9.146a.5.5 0 0 1 .708 0L8 12.793l3.646-3.647a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 0-.708m0-2.292a.5.5 0 0 0 .708 0L8 3.207l3.646 3.647a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 0 0 0 .708"/>
                         </svg></span>
+
                     <span style="width: 10%; text-align: center;">코드 이름(영문)<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chevron-expand" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M3.646 9.146a.5.5 0 0 1 .708 0L8 12.793l3.646-3.647a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 0-.708m0-2.292a.5.5 0 0 0 .708 0L8 3.207l3.646 3.647a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 0 0 0 .708"/>
                         </svg></span>
+
                     <span style="width: 5%; text-align: center;">순서<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chevron-expand" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M3.646 9.146a.5.5 0 0 1 .708 0L8 12.793l3.646-3.647a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 0-.708m0-2.292a.5.5 0 0 0 .708 0L8 3.207l3.646 3.647a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 0 0 0 .708"/>
                         </svg></span>
+
                     <span style="width: 7%; text-align: center;">등록일<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chevron-expand" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M3.646 9.146a.5.5 0 0 1 .708 0L8 12.793l3.646-3.647a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 0-.708m0-2.292a.5.5 0 0 0 .708 0L8 3.207l3.646 3.647a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 0 0 0 .708"/>
                         </svg></span>
+
                     <span style="width: 8%; text-align: center;">수정일<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chevron-expand" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M3.646 9.146a.5.5 0 0 1 .708 0L8 12.793l3.646-3.647a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 0-.708m0-2.292a.5.5 0 0 0 .708 0L8 3.207l3.646 3.647a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 0 0 0 .708"/>
                         </svg></span>
@@ -289,7 +300,15 @@
                     <span style="width: 15%; text-align: center;">작품.기타사이트유형</span>
                     <span style="width: 8%; text-align: center;">381</span>
                     <span style="width: 7%; text-align: center;"></span>
-                    <span style="width: 7%; text-align: center;">공식홈페이지</span>
+                    <span style="width: 7%; text-align: center;">
+                        <span style="width: 7%; text-align: center;">
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                  <li class="breadcrumb-item"><a href="#">공식홈페이지지</a></li>
+                                </ol>
+                              </nav>
+                        </span>
+                    </span>
                     <span style="width: 10%; text-align: center;"></span>
                     <span style="width: 5%; text-align: center;">1</span>
                     <span style="width: 7%; text-align: center;"></span>
@@ -303,7 +322,15 @@
                     <span style="width: 15%; text-align: center;">작품.기타사이트유형</span>
                     <span style="width: 8%; text-align: center;">382</span>
                     <span style="width: 7%; text-align: center;"></span>
-                    <span style="width: 7%; text-align: center;">기타사이트</span>
+                    <span style="width: 7%; text-align: center;">
+                        <span style="width: 7%; text-align: center;">
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                  <li class="breadcrumb-item"><a href="#">기타사이트트</a></li>
+                                </ol>
+                              </nav>
+                        </span>
+                    </span>
                     <span style="width: 10%; text-align: center;"></span>
                     <span style="width: 5%; text-align: center;">2</span>
                     <span style="width: 7%; text-align: center;"></span>
@@ -317,7 +344,15 @@
                     <span style="width: 15%; text-align: center;">작품.연재사이트</span>
                     <span style="width: 8%; text-align: center;">372</span>
                     <span style="width: 7%; text-align: center;"></span>
-                    <span style="width: 7%; text-align: center;">네이버웹툰</span>
+                    <span style="width: 7%; text-align: center;">
+                        <span style="width: 7%; text-align: center;">
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                  <li class="breadcrumb-item"><a href="#">네이버웹툰툰</a></li>
+                                </ol>
+                              </nav>
+                        </span>
+                    </span>
                     <span style="width: 10%; text-align: center;"></span>
                     <span style="width: 5%; text-align: center;">1</span>
                     <span style="width: 7%; text-align: center;"></span>
@@ -331,7 +366,15 @@
                     <span style="width: 15%; text-align: center;">작품.연재사이트</span>
                     <span style="width: 8%; text-align: center;">373</span>
                     <span style="width: 7%; text-align: center;"></span>
-                    <span style="width: 7%; text-align: center;">카카오웹툰</span>
+                    <span style="width: 7%; text-align: center;">
+                        <span style="width: 7%; text-align: center;">
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                  <li class="breadcrumb-item"><a href="#">카카오웹툰툰</a></li>
+                                </ol>
+                              </nav>
+                        </span>
+                    </span>
                     <span style="width: 10%; text-align: center;"></span>
                     <span style="width: 5%; text-align: center;">2</span>
                     <span style="width: 7%; text-align: center;"></span>
@@ -345,7 +388,15 @@
                     <span style="width: 15%; text-align: center;">작품.연재사이트</span>
                     <span style="width: 8%; text-align: center;">374</span>
                     <span style="width: 7%; text-align: center;"></span>
-                    <span style="width: 7%; text-align: center;">버프툰</span>
+                    <span style="width: 7%; text-align: center;">
+                        <span style="width: 7%; text-align: center;">
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                  <li class="breadcrumb-item"><a href="#">버프툰툰</a></li>
+                                </ol>
+                              </nav>
+                        </span>
+                    </span>
                     <span style="width: 10%; text-align: center;"></span>
                     <span style="width: 5%; text-align: center;">3</span>
                     <span style="width: 7%; text-align: center;"></span>

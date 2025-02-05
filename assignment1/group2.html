@@ -156,8 +156,8 @@
                             <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
                                 <ol class="breadcrumb">
                                   <li class="breadcrumb-item"><a href="./group_page1.html">page1</a></li>
-                                  <li class="breadcrumb-item active" aria-current="page">page2</li>
-                                  <li class="breadcrumb-item"><a href="#">Default</a></li>
+                                  <li class="breadcrumb-item"><a href="./group_page1.html">page2</a></li>
+                                  <li class="breadcrumb-item active" aria-current="page">Default</li>
                                 </ol>
                               </nav>
                         </td>
@@ -241,97 +241,134 @@
                         </td>
                     </tr>
                 </table>
-                
-                <table>
-                    <td>
-                        <thead>
-                            <tr>
-                                <th><input class="form-check-input" type="checkbox"></th>
-                                <th>#</th>
-                                <th>
-                                    <div style="display: flex; align-items: center;">
-                                        <span>사용</span>
-                                        <button style="background: none; border: none; cursor: pointer; padding: 0;">
-                                        &#9660; <!-- 드롭다운 아이콘(삼각형) -->
-                                        </button>
-                                    </div>
-                                </th>
-                                <th>
-                                    <div style="display: flex; align-items: center;">
-                                        <span>코드그룹 코드</span>
-                                        <button style="background: none; border: none; cursor: pointer; padding: 0;">
-                                        &#9660; <!-- 드롭다운 아이콘(삼각형) -->
-                                        </button>
-                                    </div>
-                                </th>
-                                <th>
-                                    <div style="display: flex; align-items: center;">
-                                        <span>코드그룹 이름</span>
-                                        <button style="background: none; border: none; cursor: pointer; padding: 0;">
-                                        &#9660; <!-- 드롭다운 아이콘(삼각형) -->
-                                        </button>
-                                    </div>
-                                </th>
-                                <th>
-                                    <div style="display: flex; align-items: center;">
-                                        <span>코드그룹 이름(영문)</span>
-                                        <button style="background: none; border: none; cursor: pointer; padding: 0;">
-                                        &#9660; <!-- 드롭다운 아이콘(삼각형) -->
-                                        </button>
-                                    </div>
-                                </th>
-                                <th>
-                                    <div style="display: flex; align-items: center;">
-                                        <span>갯수</span>
-                                        <button style="background: none; border: none; cursor: pointer; padding: 0;">
-                                        &#9660; <!-- 드롭다운 아이콘(삼각형) -->
-                                        </button>
-                                    </div>
-                                </th>
-                                <th>
-                                    <div style="display: flex; align-items: center;">
-                                        <span>순서</span>
-                                        <button style="background: none; border: none; cursor: pointer; padding: 0;">
-                                        &#9660; <!-- 드롭다운 아이콘(삼각형) -->
-                                        </button>
-                                    </div>
-                                </th>
-                                <th>
-                                    <div style="display: flex; align-items: center;">
-                                        <span>등록일</span>
-                                        <button style="background: none; border: none; cursor: pointer; padding: 0;">
-                                        &#9660; <!-- 드롭다운 아이콘(삼각형) -->
-                                        </button>
-                                    </div>
-                                </th>
-                                <th>
-                                    <div style="display: flex; align-items: center;">
-                                        <span>수정일</span>
-                                        <button style="background: none; border: none; cursor: pointer; padding: 0;">
-                                        &#9660; <!-- 드롭다운 아이콘(삼각형) -->
-                                        </button>
-                                    </div>
-                                </th>
-                            </tr>
-                        </thead>
+                    <div class="row" style="margin-left: 20px; margin-top: 10px; margin-left: 40px; ">
+                    <span style="width: 0%;"><input type="checkbox"></span>
+                    <span style="width: 7%; text-align: center;">#</span>
+
+                    <span style="width: 7%; text-align: center;">사용<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chevron-expand" viewBox="0 0 16 16">                       
+                        <path fill-rule="evenodd" d="M3.646 9.146a.5.5 0 0 1 .708 0L8 12.793l3.646-3.647a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 0-.708m0-2.292a.5.5 0 0 0 .708 0L8 3.207l3.646 3.647a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 0 0 0 .708"/>
+                        </svg></span>
+
+                    <span style="width: 8%; text-align: center;">코드그룹코드<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chevron-expand" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M3.646 9.146a.5.5 0 0 1 .708 0L8 12.793l3.646-3.647a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 0-.708m0-2.292a.5.5 0 0 0 .708 0L8 3.207l3.646 3.647a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 0 0 0 .708"/>
+                        </svg></span>
+
+                    <span style="width: 15%; text-align: center;">코드그룹이름<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chevron-expand" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M3.646 9.146a.5.5 0 0 1 .708 0L8 12.793l3.646-3.647a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 0-.708m0-2.292a.5.5 0 0 0 .708 0L8 3.207l3.646 3.647a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 0 0 0 .708"/>
+                        </svg></span>
+
+                    <span style="width: 8%; text-align: center;">코드그룹이름(영문)<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chevron-expand" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M3.646 9.146a.5.5 0 0 1 .708 0L8 12.793l3.646-3.647a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 0-.708m0-2.292a.5.5 0 0 0 .708 0L8 3.207l3.646 3.647a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 0 0 0 .708"/>
+                        </svg></span>
+
+                    <span style="width: 7%; text-align: center;">갯수<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chevron-expand" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M3.646 9.146a.5.5 0 0 1 .708 0L8 12.793l3.646-3.647a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 0-.708m0-2.292a.5.5 0 0 0 .708 0L8 3.207l3.646 3.647a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 0 0 0 .708"/>
+                        </svg></span>
+
+                    <span style="width: 7%; text-align: center;">순서<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chevron-expand" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M3.646 9.146a.5.5 0 0 1 .708 0L8 12.793l3.646-3.647a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 0-.708m0-2.292a.5.5 0 0 0 .708 0L8 3.207l3.646 3.647a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 0 0 0 .708"/>
+                        </svg></span>
+
+                    <span style="width: 10%; text-align: center;">등록일<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chevron-expand" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M3.646 9.146a.5.5 0 0 1 .708 0L8 12.793l3.646-3.647a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 0-.708m0-2.292a.5.5 0 0 0 .708 0L8 3.207l3.646 3.647a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 0 0 0 .708"/>
+                        </svg></span>
+
+                    <span style="width: 5%; text-align: center;">수정일<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chevron-expand" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M3.646 9.146a.5.5 0 0 1 .708 0L8 12.793l3.646-3.647a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 0-.708m0-2.292a.5.5 0 0 0 .708 0L8 3.207l3.646 3.647a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 0 0 0 .708"/>
+                        </svg></span>
+
+                    </div>
+                    <div class="row" style="margin-left: 20px; margin-top: 15px; margin-left: 40px; ">
+                        <span style="width: 0%;"><input type="checkbox"></span>
+                        <span style="width: 7%; text-align: center;">42</span>
+                        <span style="width: 7%; text-align: center;">Y</span>
+                        <span style="width: 8%; text-align: center;">42</span>
+                        <span style="width: 15%; text-align: center;">
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                  <li class="breadcrumb-item"><a href="#">작품.기타사이트유형</a></li>
+                                </ol>
+                              </nav>
+                        </span>
+                        <span style="width: 8%; text-align: center;"></span>
+                        <span style="width: 7%; text-align: center;">8</span>
+                        <span style="width: 7%; text-align: center;">1</span>
+                        <span style="width: 7%; text-align: center;"></span>
+                        <span style="width: 7%; text-align: center;"></span>
+                    </div>
+                    <div class="row" style="margin-left: 20px; margin-top: 15px; margin-left: 40px; ">
+                        <span style="width: 0%;"><input type="checkbox"></span>
+                        <span style="width: 7%; text-align: center;">41</span>
+                        <span style="width: 7%; text-align: center;">Y</span>
+                        <span style="width: 8%; text-align: center;">41</span>
+                        <span style="width: 15%; text-align: center;">
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                  <li class="breadcrumb-item"><a href="#">작품.연재사이트</a></li>
+                                </ol>
+                              </nav>
+                        </span>
+                        <span style="width: 8%; text-align: center;"></span>
+                        <span style="width: 7%; text-align: center;">9</span>
+                        <span style="width: 7%; text-align: center;">1</span>
+                        <span style="width: 7%; text-align: center;"></span>
+                        <span style="width: 7%; text-align: center;"></span>
+                    </div>
+                    <div class="row" style="margin-left: 20px; margin-top: 15px; margin-left: 40px; ">
+                        <span style="width: 0%;"><input type="checkbox"></span>
+                        <span style="width: 7%; text-align: center;">40</span>
+                        <span style="width: 7%; text-align: center;">Y</span>
+                        <span style="width: 8%; text-align: center;">40</span>
+                        <span style="width: 15%; text-align: center;">
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                  <li class="breadcrumb-item"><a href="#">결제.구매자거래상태</a></li>
+                                </ol>
+                              </nav>
+                        </span>
+                        <span style="width: 8%; text-align: center;"></span>
+                        <span style="width: 7%; text-align: center;">9</span>
+                        <span style="width: 7%; text-align: center;">1</span>
+                        <span style="width: 7%; text-align: center;"></span>
+                        <span style="width: 7%; text-align: center;"></span>
+                    </div>
+                    <div class="row" style="margin-left: 20px; margin-top: 15px; margin-left: 40px; ">
+                        <span style="width: 0%;"><input type="checkbox"></span>
+                        <span style="width: 7%; text-align: center;">39</span>
+                        <span style="width: 7%; text-align: center;">Y</span>
+                        <span style="width: 8%; text-align: center;">39</span>
+                        <span style="width: 15%; text-align: center;">
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                  <li class="breadcrumb-item"><a href="#">결제.판매자거래상태</a></li>
+                                </ol>
+                              </nav>
+                        </span>
+                        <span style="width: 8%; text-align: center;"></span>
+                        <span style="width: 7%; text-align: center;">10</span>
+                        <span style="width: 7%; text-align: center;">1</span>
+                        <span style="width: 7%; text-align: center;"></span>
+                        <span style="width: 7%; text-align: center;"></span>
+                    </div>
+                    <div class="row" style="margin-left: 20px; margin-top: 15px; margin-left: 40px; ">
+                        <span style="width: 0%;"><input type="checkbox"></span>
+                        <span style="width: 7%; text-align: center;">38</span>
+                        <span style="width: 7%; text-align: center;">Y</span>
+                        <span style="width: 8%; text-align: center;">38</span>
+                        <span style="width: 15%; text-align: center;">
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                  <li class="breadcrumb-item"><a href="#">결제.승인상태</a></li>
+                                </ol>
+                              </nav>
+                        </span>
+                        <span style="width: 8%; text-align: center;"></span>
+                        <span style="width: 7%; text-align: center;">7</span>
+                        <span style="width: 7%; text-align: center;">1</span>
+                        <span style="width: 7%; text-align: center;"></span>
+                        <span style="width: 7%; text-align: center;"></span>
+                    </div>
                     
-                            <tr>
-                                <td><input class="form-check-input" type="checkbox"></td>
-                                <td>42</td>
-                                <td>Y</td>
-                                <td>42</td>
-                                <td><th><a class="icon-link icon-link-hover" href="#">작품.기타사이트유형</a></th></td>
-                                <td></td>
-                                <td>8</td>
-                                <td>1</td>
-                                <td></td>
-                                <td></td>
-                                
-                            </tr>
-                        
-                            
-                    </td>
-                </table>
                 <table><br>
                     <td >
                         <tr>
